@@ -1,14 +1,15 @@
 package ru.skypro.homeworkClass;
 
-public class Book extends Author{
+public class Book  {
     public String bookName;
     private int publisherYear;
 
-    public Book(String bookName,String name,int publisherYear) {
-        super(name);
-        this.bookName=bookName;
-        this.publisherYear=publisherYear;
+    private final Author author;
 
+    public Book(String bookName, Author author, int publisherYear) {
+        this.bookName = bookName;
+        this.publisherYear = publisherYear;
+        this.author = author;
     }
 
     public String getBookName() {

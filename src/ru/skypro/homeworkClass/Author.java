@@ -1,6 +1,6 @@
 package ru.skypro.homeworkClass;
 public class Author {
-    protected String name;
+    public String name;
 
 
     public Author(String name) {
@@ -8,11 +8,9 @@ public class Author {
 
     }
 
-
     public String getName() {
         return name;
     }
-
 
 }
 
