@@ -1,19 +1,18 @@
 package ru.skypro.homeworkClass;
-
 public class Author {
-    private final String name;
-    private final String secondName;
+    protected String name;
 
-    public Author(String name, String secondName) {
+
+    public Author(String name) {
         this.name = name;
-        this.secondName = secondName;
+
     }
+
 
     public String getName() {
         return name;
     }
 
-    public String getSecondName() {
-        return secondName;
-    }
+
 }
+
